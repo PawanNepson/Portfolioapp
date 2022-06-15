@@ -36,6 +36,11 @@ header {
   background: var(--color-primary);
 }
 /* Me image  */
+#img__id {
+  width: 22rem;
+  height: 30rem;
+  fill: var(--color-primary);
+}
 .me {
   background: linear-gradient(#4db5ff, rgb(158, 158, 173));
 
@@ -53,7 +58,7 @@ header {
 /* scroll down  */
 .scroll__down {
   position: absolute;
-  right: -2.3 rem;
+  right: -2.3rem;
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;

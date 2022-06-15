@@ -12,7 +12,7 @@ export const Header = () => {
         <Quote />
         <Social />
         <div className="me">
-          <img src={ME} alt="loading" />
+          <img src={ME} alt="loading" id="img__id" />
         </div>
         <a href="#contact" className="scroll__down">
           Scroll Down{" "}
