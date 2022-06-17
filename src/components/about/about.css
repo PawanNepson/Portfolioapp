@@ -38,7 +38,6 @@
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: pointer;
-  border-color: red;
 }
 
 .about__icon {
