@@ -14,7 +14,7 @@
 .about__me-image {
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(10deg);
+  transform: rotate(-10deg);
   transition: var(--transition);
   opacity: 0.9;
 }
@@ -38,8 +38,9 @@
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: pointer;
-  /* border-color: red; */
+  border-color: red;
 }
+
 .about__icon {
   color: var(--color-primary);
   font-size: 1.4rem;
@@ -55,6 +56,7 @@
 .about__content p {
   margin: 2rem 0 2.6rem;
 }
+
 /* medium size */
 @media screen and (max-width: 1024px) {
   .about__container {
