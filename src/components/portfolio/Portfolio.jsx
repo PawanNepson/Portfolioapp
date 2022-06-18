@@ -16,7 +16,7 @@ export const Portfolio = () => {
             <img src={IMG1} alt="Loading" />
           </div>
           <h3>Porfolio item title</h3>
-          <div className="portfolio__item-cta">
+          <div className="portfolio__item-anc">
             <a href="https://github.com" className="btn">
               Github
             </a>
@@ -35,7 +35,7 @@ export const Portfolio = () => {
             <img src={IMG2} alt="Loading" />
           </div>
           <h3>Porfolio item title</h3>
-          <div className="portfolio__item-cta">
+          <div className="portfolio__item-anc">
             <a href="https://github.com" className="btn">
               Github
             </a>
@@ -54,7 +54,7 @@ export const Portfolio = () => {
             <img src={IMG3} alt="Loading" />
           </div>
           <h3>Porfolio item title</h3>
-          <div className="portfolio__item-cta">
+          <div className="portfolio__item-anc">
             <a href="https://github.com" className="btn">
               Github
             </a>
@@ -73,7 +73,7 @@ export const Portfolio = () => {
             <img src={IMG4} alt="Loading" />
           </div>
           <h3>Porfolio item title</h3>
-          <div className="portfolio__item-cta">
+          <div className="portfolio__item-anc">
             <a href="https://github.com" className="btn">
               Github
             </a>
@@ -92,7 +92,7 @@ export const Portfolio = () => {
             <img src={IMG5} alt="Loading" />
           </div>
           <h3>Porfolio item title</h3>
-          <div className="portfolio__item-cta">
+          <div className="portfolio__item-anc">
             <a href="https://github.com" className="btn">
               Github
             </a>
@@ -111,7 +111,7 @@ export const Portfolio = () => {
             <img src={IMG6} alt="Loading" />
           </div>
           <h3>Porfolio item title</h3>
-          <div className="portfolio__item-cta">
+          <div className="portfolio__item-anc">
             <a href="https://github.com" className="btn">
               Github
             </a>
