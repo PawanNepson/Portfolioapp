@@ -9,7 +9,7 @@ export const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdEmail />
+            <MdEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>nepsonh@gmail.com</h5>
             <a href="mailto:nepsonh@gmail.com" target="_blank">
@@ -17,7 +17,7 @@ export const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <MdFacebook />
+            <MdFacebook className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>Pawan Upadhayay</h5>
             <a href="https://m.me/Nepson007" target="_blank">
@@ -25,7 +25,7 @@ export const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <FaWhatsapp />
+            <FaWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>
             <h5>9806******</h5>
             <a
