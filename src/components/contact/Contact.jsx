@@ -1,7 +1,31 @@
+import emailjs from "emailjs-com";
+import { useRef } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdEmail, MdFacebook } from "react-icons/md";
 import "./contact.css";
+
 export const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    // e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_wdy3fqo",
+        "template_zy5qoxg",
+        form.current,
+        "YHCP4fAcR2YNdX3bW"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <section id="contact">
       <h5>Let's Have a talk</h5>
@@ -37,11 +61,11 @@ export const Contact = () => {
           </article>
         </div>
 
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Your Full Name" />
           <input type="email" name="email" placeholder="Email" required />
           <textarea
-            name="nessage"
+            name="message"
             placeholder="Your Message here"
             required
             rows="7"
