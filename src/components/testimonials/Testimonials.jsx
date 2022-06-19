@@ -43,7 +43,7 @@ export const Testimonials = () => {
           return (
             <article key={id} className="testimonial">
               <div className="client__avatar">
-                <img src={avatar} alt="loading" />
+                <img src={avatar} alt={name} />
               </div>
               <h5 className="client__name">{name}</h5>
               <small className="client__review">{review}</small>
