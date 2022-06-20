@@ -34,7 +34,7 @@
   gap: 1rem;
   margin-bottom: 0.8rem;
 }
-.service__list-icon {
+.service__list__icon {
   color: var(--color-primary);
   margin-top: 0.125rem;
 }
