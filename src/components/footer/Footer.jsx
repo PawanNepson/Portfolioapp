@@ -1,14 +1,14 @@
 import { FaInstagram, FaTwitter } from "react-icons/fa";
 import { MdFacebook } from "react-icons/md";
-import "./footer.css";
+import styles from "./Footer.module.css";
 
 export const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      <a href="#" className={styles.footer__logo}>
         Pawan Upadhayay
       </a>
-      <ul className="permalinks">
+      <ul className={styles.permalinks}>
         <li>
           <a href="#">Home</a>
         </li>
@@ -31,7 +31,7 @@ export const Footer = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <div className="footer__socials">
+      <div className={styles.footer__socials}>
         <a href="https://facebook.com">
           <MdFacebook />
         </a>
@@ -42,7 +42,7 @@ export const Footer = () => {
           <FaTwitter />
         </a>
       </div>
-      <div className="footer__copyright">
+      <div className={styles.footer__copyright}>
         <small>&copy; Pawan Upadhayay[Nepson] 2022.All r rights reserved</small>
       </div>
     </footer>
