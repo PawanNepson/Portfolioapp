@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaBook, FaHome, FaUser } from "react-icons/fa";
 import { MdDesignServices, MdMessage } from "react-icons/md";
-import "./nav.css";
+import styles from "./Nav.module.css";
 export const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
@@ -9,7 +9,7 @@ export const Nav = () => {
       <a
         href="#"
         onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
+        className={activeNav === "#" ? `${styles.active}` : ""}
       >
         {" "}
         <FaHome />
@@ -17,28 +17,28 @@ export const Nav = () => {
       <a
         href="#about"
         onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
+        className={activeNav === "#about" ? `${styles.active}` : ""}
       >
         <FaUser />{" "}
       </a>
       <a
         href="#experience"
         onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
+        className={activeNav === "#experience" ? `${styles.active}` : ""}
       >
         <FaBook />{" "}
       </a>
       <a
         href="#services"
         onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
+        className={activeNav === "#services" ? `${styles.active}` : ""}
       >
         <MdDesignServices />{" "}
       </a>
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
-        className={activeNav === "#contact" ? "active" : ""}
+        className={activeNav === "#contact" ? `${styles.active}` : ""}
       >
         <MdMessage />{" "}
       </a>
