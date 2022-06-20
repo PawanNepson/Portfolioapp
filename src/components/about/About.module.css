@@ -11,14 +11,14 @@
   display: grid;
   place-items: center;
 }
-.about__me-image {
+.about__me__image {
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(-10deg);
   transition: var(--transition);
   opacity: 0.9;
 }
-.about__me-image:hover {
+.about__me__image:hover {
   transform: rotate(0deg);
 }
 .about__cards {
