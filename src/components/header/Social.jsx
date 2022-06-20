@@ -1,8 +1,9 @@
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import styles from "./Header.module.css";
 
 export const Social = () => {
   return (
-    <div className="header__socials">
+    <div className={styles.header__socials}>
       <a href="https://linkedin.com" target="_blank">
         <FaLinkedin />
       </a>
