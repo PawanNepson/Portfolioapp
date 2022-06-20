@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer>
       <a href="#" className="footer__logo">
-        Pawan
+        Pawan Upadhayay
       </a>
       <ul className="permalinks">
         <li>
