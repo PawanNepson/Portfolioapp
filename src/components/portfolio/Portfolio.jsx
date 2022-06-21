@@ -10,15 +10,15 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Crypto currency",
-    github: "https://github.com",
+    title: "Morden Art Gallery",
+    github: "https://github.com/PawanNepson/ArtGallery.git",
     demo: "https://github.com",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Crypto currency",
-    github: "https://github.com",
+    title: "Audiophile",
+    github: "https://github.com/PawanNepson/audiophile.git",
     demo: "https://github.com",
   },
   {
