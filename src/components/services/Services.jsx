@@ -8,106 +8,34 @@ export const Services = () => {
       <div className={`${styles.services__container} container`}>
         <article className={styles.service}>
           <div className={styles.service__head}>
-            <h3>UI/UX Design</h3>
+            <h3>Web Design</h3>
           </div>
           <ul className={styles.service__list}>
             <li>
               <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
-            </li>
-            <li>
-              <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
-            </li>
-            <li>
-              <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
-            </li>
-            <li>
-              <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
-            </li>
-            <li>
-              <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
-            </li>
-            <li>
-              <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
-            </li>
-            <li>
-              <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
+              <p>Attractive,and eye catching UI/UX using figma.</p>
             </li>
           </ul>
         </article>
         <article className={styles.service}>
           <div className={styles.service__head}>
-            <h3>Web Development</h3>
+            <h3>Web Development and Responsive Design</h3>
           </div>
           <ul className={styles.service__list}>
             <li>
               <MdCheck className={styles.service__list__icon} />
-              <p>I am Good at this but will later fill this thing</p>
-            </li>
-            <li>
-              <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
-            </li>
-            <li>
-              <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
-            </li>
-            <li>
-              <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
-            </li>
-            <li>
-              <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
-            </li>
-            <li>
-              <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
-            </li>
-            <li>
-              <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
+              <p>Knowledge of HTML,CSS,Javascript and React.</p>
             </li>
           </ul>
         </article>
         <article className={styles.service}>
           <div className={styles.service__head}>
-            <h3>Content Creation</h3>
+            <h3>SPA</h3>
           </div>
           <ul className={styles.service__list}>
             <li>
               <MdCheck className={styles.service__list__icon} />
-              <p>One day this will be my new hobby.</p>
-            </li>
-            <li>
-              <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
-            </li>
-            <li>
-              <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
-            </li>
-            <li>
-              <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
-            </li>
-            <li>
-              <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
-            </li>
-            <li>
-              <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
-            </li>
-            <li>
-              <MdCheck className={styles.service__list__icon} />
-              <p>I am learning figma and will be expert one day.</p>
+              <p>I can create single-page applications using react js .</p>
             </li>
           </ul>
         </article>
