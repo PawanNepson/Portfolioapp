@@ -28,6 +28,20 @@ export const Experience = () => {
             <article className={styles.experience__details}>
               <FaCheckCircle className={styles.exp__icon} />
               <div>
+                <h4>Tailwind css</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className={styles.experience__details}>
+              <FaCheckCircle className={styles.exp__icon} />
+              <div>
+                <h4>TypeScript </h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className={styles.experience__details}>
+              <FaCheckCircle className={styles.exp__icon} />
+              <div>
                 {" "}
                 <h4>Javascript</h4>
                 <small className="text-light">Intermediate</small>
