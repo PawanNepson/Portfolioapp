@@ -24,7 +24,7 @@ export const About = () => {
             <article className={styles.about__card}>
               <MdWork className={styles.about__icon} />
               <h5>Skills</h5>
-              <small>CSS,React,Next Js</small>
+              <small>CSS,React,Tailwind,Javascript</small>
             </article>
             <article className={styles.about__card}>
               <MdBuild className={styles.about__icon} />
